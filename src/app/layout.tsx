@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import { Toaster } from "@/components/ui/toaster"
 import Providers from "@/components/Providers";
 
 import "react-loading-skeleton/dist/skeleton.css"
@@ -26,6 +27,7 @@ export default function RootLayout({
         <body
           className={cn("min-h-screen antialiased grainy", GeistSans.className)}
         >
+          <Toaster />
           <Navbar />
           {children}
         </body>
