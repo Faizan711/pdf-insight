@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className="hidden items-center space-x-4 sm:flex ">
                         <>
                             <Link target="_blank" href='https://github.com/Faizan711/pdf-insight' className={buttonVariants({
-                                variant:"ghost",
+                                variant:"outline",
                                 size: 'sm',
                             })}><Github className="h-4 w-4"/></Link>
                             <Link href='/pricing' className={buttonVariants({
