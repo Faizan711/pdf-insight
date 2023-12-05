@@ -18,8 +18,7 @@ export default function Home() {
           seconds.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
-          Pdf-insight allows you conversate with your documents. Just simply
-          upload your file and start asking the AI questions right away.
+          Pdf-insight empowers seamless interaction with your documents. Just upload your file and instantly engage in dynamic conversations with the AI by asking questions.
         </p>
 
         <Link
