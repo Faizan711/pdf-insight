@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Heart, HeartHandshake } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -155,6 +155,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mx-auto ">
+        <p className="flex items-center justify-center p-3">Made with <Heart className="text-red-500 h-4 w-4 ml-1.5 mr-1.5"/> by Faizan</p>
       </div>
     </>
   );
