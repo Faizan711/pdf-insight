@@ -181,7 +181,7 @@ const PdfRenderer = ({ url }: PdfRendererProps) => {
               className="max-h-full"
             >
               {isLoading && renderedScale ? (<Page
-                width={width ? width : 1}
+                width={width ? width : width}
                 pageNumber={currPage}
                 scale={scale}
                 rotate={rotation}
