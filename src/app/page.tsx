@@ -157,7 +157,12 @@ export default function Home() {
         </div>
       </div>
       <div className="mx-auto ">
-        <p className="flex items-center justify-center p-3">Made with <Heart className="text-red-500 h-4 w-4 ml-1.5 mr-1.5"/> by Faizan</p>
+        <p className="flex items-center justify-center p-3">Made with <span className="font-bold ml-1.5 mr-1.5">
+            <span className="animate-pulse">&#123;</span>
+            <strong className="animate-pulse">TECH</strong>
+            <span className="animate-pulse">&#125;</span>
+          </span> by Faizan
+        </p>
       </div>
     </>
   );
