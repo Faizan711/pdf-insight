@@ -190,7 +190,7 @@ const PdfRenderer = ({ url }: PdfRendererProps) => {
 
               <Page
                 className={cn(isLoading ? "hidden" : "")}
-                width={width ? width : 1}
+                width={width ? width : width}
                 pageNumber={currPage}
                 scale={scale}
                 rotate={rotation}
